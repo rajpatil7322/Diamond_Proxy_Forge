@@ -1,0 +1,227 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/Diamond.sol": {
+      "lastModificationDate": 1697954828088,
+      "contentHash": "421919c1ca849957bff7d348313356dd",
+      "sourceName": "src/Diamond.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/LibDiamond.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Diamond"
+      ]
+    },
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/libraries/LibDiamond.sol": {
+      "lastModificationDate": 1697954723009,
+      "contentHash": "2fc061ec4e847afbfc98e972df7449e1",
+      "sourceName": "src/libraries/LibDiamond.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "LibDiamond"
+      ]
+    },
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/facet/FacetA.sol": {
+      "lastModificationDate": 1697954197401,
+      "contentHash": "620541c27f974262639648d09fadedeb",
+      "sourceName": "src/facet/FacetA.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibFacetA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "FacetA"
+      ]
+    },
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/libraries/LibFacetA.sol": {
+      "lastModificationDate": 1697954194289,
+      "contentHash": "46fa7d9b0f54de8e987a2aaaa8f7d6bf",
+      "sourceName": "src/libraries/LibFacetA.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "LibFacetA"
+      ]
+    },
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/facet/FacetB.sol": {
+      "lastModificationDate": 1697892183833,
+      "contentHash": "8afc5f9c6e49526532263470306dabee",
+      "sourceName": "src/facet/FacetB.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibFacetB.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "FacetB"
+      ]
+    },
+    "/Users/admin/Desktop/Diamond_Proxy_Forge/src/libraries/LibFacetB.sol": {
+      "lastModificationDate": 1697892169146,
+      "contentHash": "6741a0ea79156b981c4cca6bbd6a5290",
+      "sourceName": "src/libraries/LibFacetB.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "LibFacetB"
+      ]
+    }
+  }
+}
